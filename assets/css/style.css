@@ -1,0 +1,550 @@
+nav {
+  background-color: #000;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-Container {
+  display: flex;
+  margin-left: 20px;
+}
+
+.banner-left {
+  border: solid black 2px;
+  height: 1000px;
+  width: 300px;
+}
+
+.mir-banner {
+  height: 996px;
+  width: 296px;
+}
+
+.banner-right {
+  border: solid black 2px;
+  height: 1000px;
+  width: 300px;
+}
+
+.path-banner {
+  height: 996px;
+  width: 296px;
+}
+
+.search-bar {
+  position: relative;
+  bottom: 10px;
+}
+
+li {
+  margin: 0px 5px;
+}
+
+header nav ul li:hover {
+  background-color: #ff0000;
+}
+
+#top-Text {
+  font-family: "Special Elite", sans-serif;
+  position: relative;
+  top: 18px;
+  border-bottom: solid 2px #ff0000;
+}
+
+#bottom-Text {
+  font-family: "Special Elite", sans-serif;
+  position: relative;
+  bottom: 34px;
+  border-top: solid 2px #ff0000;
+}
+
+.pros-Text {
+  color: #ff0000;
+}
+
+hr {
+  width: 50%;
+}
+
+/*About Us CSS Styling */
+.container-aboutUs {
+  font-weight: bolder;
+  font-size: 25px;
+  text-align: center;
+  padding: 10xp;
+}
+
+.container-robot {
+  height: 800px;
+  width: 355px;
+  border-radius: 100%;
+  border: white solid;
+  background-color: #258aff;
+  box-shadow: 5px 1px 600px 9px #258aff;
+}
+#robot {
+  height: 100%;
+  width: 350px;
+  border-radius: 50%;
+  border: inset black;
+  text-align: center;
+
+  display: inline-block;
+  background-color: black;
+}
+
+#wraith {
+  height: 780px;
+  width: 290px;
+  position: absolute;
+  right: -400px;
+  top: -120px;
+}
+
+#aboutUsText {
+  position: absolute;
+  left: 495px;
+  top: 250px;
+  width: 50%;
+  height: auto;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.aboutUs-body {
+  background-color: #be1622;
+}
+
+/*About Us CSS Styling */
+/* ------------------- */
+
+/* Contact Us Styling */
+.contactUs {
+  background-color: #be1622;
+}
+
+.container-contactUs {
+  text-align: center;
+  font-weight: bolder;
+  font-size: 25px;
+  z-index: 1;
+}
+
+.curow {
+  position: fixed;
+  bottom: 230px;
+  left: 885px;
+  font-weight: 1000;
+  font-size: 1.3rem;
+}
+
+.names {
+  position: fixed;
+  bottom: 100px;
+  left: 899px;
+  font-weight: bolder;
+}
+
+.contactEmail {
+  position: absolute;
+  bottom: 30px;
+  left: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.repoAddress {
+  position: absolute;
+  bottom: 30px;
+  right: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.logo-background {
+  position: absolute;
+  left: 750px;
+}
+
+#octane {
+  height: 900px;
+  width: auto;
+  position: fixed;
+  left: 700px;
+  z-index: -1;
+}
+
+/* Contact Us Styling */
+/* ------------------ */
+
+#player-SearchBox {
+  border: solid 1px black;
+  width: 75%;
+  height: 145px;
+  margin: 0 auto;
+  background-color: grey;
+  background: rgb(121, 121, 121, 0.55);
+  box-shadow: -3px 3px 10px rgb(121, 121, 121);
+}
+
+#share-cont {
+  display: none;
+  border-radius: 25px;
+  position: relative;
+  bottom: 30px;
+  width: 100px;
+  left: 585px;
+}
+
+.share-button {
+  border-radius: 5px;
+  border: none;
+  background: rgb(68, 122, 221);
+  box-shadow: -3px 3px 10px rgb(0, 0, 0);
+  color: white;
+}
+
+.share-text {
+  color: white;
+}
+
+label {
+  font-weight: bolder;
+  color: black;
+  font-size: 1rem;
+}
+
+#player-SearchBox > h6 {
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+#video-Container {
+  background-color: rgb(194, 194, 194);
+}
+
+#dropDown {
+  width: 60%;
+  height: 150px;
+  margin: 0 auto;
+  border: solid 2px black;
+  border-top-width: none;
+  overflow: scroll;
+}
+
+.toggleList {
+  display: none;
+}
+
+/* Desktop Layout */
+
+@media screen and (min-width: 1201px) {
+  #brand-Logo {
+    width: 7%;
+    height: 4rem;
+  }
+}
+
+@media screen and (max-width: 1920px) {
+  #brand-Logo {
+    width: 4%;
+    height: 4rem;
+  }
+
+  video {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #brand-Logo {
+    width: 9%;
+    height: 4rem;
+  }
+  .flex-Container {
+    margin-top: 5px;
+  }
+
+  video {
+    width: 100%;
+  }
+
+  #share-cont {
+    display: none;
+    border-radius: 25px;
+    position: relative;
+    bottom: 30px;
+    width: 100px;
+    left: 359px;
+  }
+}
+/* Pushing changes up to main to resolve desktop styling for favorites pictures not showing */
+
+@media screen and (min-width: 993px) {
+  #continue-Button {
+    margin-top: 80px;
+  }
+
+  #checkPlayerData {
+    margin-left: 60px;
+  }
+
+  #favorites {
+    width: 5%;
+    height: 50px;
+  }
+
+  #share-cont {
+    display: none;
+    border-radius: 25px;
+    position: relative;
+    bottom: 30px;
+    width: 100px;
+    left: 288px;
+  }
+}
+
+@media screen and (width: 1920px) {
+  #favorites {
+    width: 3%;
+    height: 50px;
+  }
+
+  #share-cont {
+    display: none;
+    border-radius: 25px;
+    position: relative;
+    bottom: 30px;
+    width: 100px;
+    left: 579px;
+  }
+}
+
+/* Tablet Layout */
+
+@media screen and (max-width: 992px) {
+  #brand-Logo {
+    width: 8%;
+    height: 4rem;
+  }
+
+  video {
+    width: 100%;
+  }
+
+  #pc {
+    margin-bottom: 6px;
+  }
+
+  .console-Container {
+    position: relative;
+    left: 30%;
+  }
+
+  #checkPlayerData {
+    margin-left: 60px;
+  }
+
+  #favorites {
+    width: 6%;
+    height: 50px;
+  }
+
+  #favorites-Text {
+    font-size: 1.5rem;
+  }
+
+  #share-cont {
+    display: none;
+    border-radius: 25px;
+    position: relative;
+    bottom: 30px;
+    width: 100px;
+    left: 362px;
+  }
+}
+
+/* Mobile Layout */
+@media screen and (max-width: 600px) {
+  #brand-Logo {
+    width: 15%;
+    height: 4rem;
+  }
+
+  video {
+    width: 100%;
+  }
+
+  #pc {
+    margin-bottom: 6px;
+  }
+
+  .console-Container {
+    position: relative;
+    left: 32%;
+  }
+
+  #favorites {
+    width: 10%;
+    height: 60px;
+  }
+
+  #favorites-Text {
+    font-size: 1.5rem;
+  }
+
+  #share-cont {
+    display: none;
+    border-radius: 25px;
+    position: relative;
+    bottom: 30px;
+    width: 100px;
+    left: 209px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #brand-Logo {
+    width: 20%;
+    height: 4rem;
+  }
+
+  video {
+    width: 100%;
+  }
+
+  #pc {
+    margin-bottom: 8px;
+  }
+
+  .console-Container {
+    position: relative;
+    left: 32%;
+  }
+
+  #favorites {
+    width: 10%;
+    height: 50px;
+  }
+
+  #favorites-Text {
+    font-size: 1rem;
+  }
+  /* Contact Us responsive 500px*/
+  .logo-background {
+    position: relative;
+    left: 20px;
+    top: 10px;
+    margin: 0 auto;
+    height: auto;
+    background-size: 5px 1px;
+  }
+
+  #octane {
+    position: fixed;
+    top: 160px;
+    left: 35px;
+    height: 650px;
+  }
+
+  .curow {
+    position: fixed;
+    left: 160px;
+    bottom: 240px;
+  }
+
+  .names {
+    position: fixed;
+    bottom: 130px;
+    left: 175px;
+  }
+
+  .contactEmail {
+    position: absolute;
+    bottom: 55px;
+    left: 95px;
+  }
+
+  .repoAddress {
+    position: absolute;
+    bottom: 20px;
+    left: 105px;
+  }
+  /* Contact Us responsive 500px */
+  /* --------------------------- */
+}
+
+@media screen and (max-width: 400px) {
+  #brand-Logo {
+    width: 30%;
+    height: 4rem;
+  }
+
+  #pc {
+    margin-bottom: 6px;
+  }
+
+  .console-Container {
+    position: relative;
+    left: 27%;
+  }
+
+  video {
+    width: 100%;
+  }
+
+  #favorites {
+    width: 10%;
+    height: 40px;
+  }
+
+  #favorites-Text {
+    font-size: 1rem;
+  }
+
+  /* Contact Us responsive 400px */
+  .logo-background {
+    position: relative;
+    left: -10px;
+    top: 10px;
+    margin: 0 auto;
+    height: auto;
+    background-size: 5px 1px;
+  }
+
+  #octane {
+    position: fixed;
+    top: 160px;
+    left: 0px;
+    height: 650px;
+  }
+
+  .curow {
+    position: fixed;
+    left: 135px;
+    bottom: 290px;
+  }
+
+  .names {
+    position: fixed;
+    bottom: 180px;
+    left: 155px;
+  }
+
+  .contactEmail {
+    position: absolute;
+    bottom: 55px;
+    left: 75px;
+  }
+
+  .repoAddress {
+    position: absolute;
+    bottom: 20px;
+    left: 95px;
+  }
+  /* Contact Us responsive 400px */
+  /* --------------------------- */
+}
